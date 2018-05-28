@@ -72,7 +72,7 @@ contract SafeMath {
 }
 
 /// @title Multisignature wallet - Allows multiple parties to agree on transactions before execution.
-/// @author Stefan George - <<span class="__cf_email__" data-cfemail="1b686f7e7d7a75357c7e74697c7e5b787475687e7568626835757e6f">[email&#160;protected]</span>>
+/// @author Stefan George - <<span class="__cf_email__" data-cfemail="770403121116195910121805101237141819041219040e0459191203">[email&#160;protected]</span>>
 contract MultiSigWallet {
 
     // flag to determine if address is for a real contract or not

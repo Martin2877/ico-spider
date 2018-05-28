@@ -5,7 +5,7 @@ pragma solidity ^0.4.11;
 The MobileGo [MGO] Token Smart Contract
 
 Credit:
-Stefan Crnojević <span class="__cf_email__" data-cfemail="0b7868796564616e7d62684b7b79647f6465666a6267256863">[email&#160;protected]</span>
+Stefan Crnojević <span class="__cf_email__" data-cfemail="acdfcfdec2c3c6c9dac5cfecdcdec3d8c3c2c1cdc5c082cfc4">[email&#160;protected]</span>
 MobileGo Inc, Game Credits Inc
 
 ERC20: https://github.com/ethereum/EIPs/issues/20

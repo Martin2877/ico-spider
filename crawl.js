@@ -28,9 +28,9 @@ function downloadCode (name, address) {
         .replace(/&nbsp;/g, ' ')
         .replace(/&#39;/g, '\'')
         .replace(/&copy;/g, '©');
-
-      fs.writeFileSync("result\\" + name + ".sol", code);
-      console.log(`[${task[1]}/${task[0]}] download ${address} ${name} successfully!`);
+     
+     fs.writeFileSync("result/" + name + ".sol", code);
+     console.log(`[${task[1]}/${task[0]}] download ${address} ${name} successfully!`);
     } else {
       console.error(`[${task[1]}/${task[0]}] download ${address} ${name} no code!`);
     }
@@ -55,8 +55,16 @@ function start () {
       let token;
       while (token = token_reg.exec(html)) {
         task[0]++;
-        downloadCode(token[2], token[1]);
-      }
+        let exi = false;
+        fs.exists("result/" + token[2] , function(exists){
+              exi = exists;
+          });
+        if (exi){
+          downloadCode(token[2], token[1]);
+         }else{
+          process.stdout.write("[" + page + "] " + token[2] + " ");
+          }
+       }
       doPage(++page);
     });
   };

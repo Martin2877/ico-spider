@@ -162,7 +162,7 @@ contract SafeMath {
 
 
 /// @title Token contract - Implements Standard ERC20 with additional features.
-/// @author Zerion - <<span class="__cf_email__" data-cfemail="7a13141815023a001f08131514541315">[email&#160;protected]</span>>
+/// @author Zerion - <<span class="__cf_email__" data-cfemail="066f6864697e467c63746f6968286f69">[email&#160;protected]</span>>
 contract Token is StandardToken, SafeMath {
 
     // Time of the contract creation
@@ -195,7 +195,7 @@ contract Token is StandardToken, SafeMath {
 
 
 /// @title Token contract - Implements Standard ERC20 Token for Tokenbox project.
-/// @author Zerion - <<span class="__cf_email__" data-cfemail="90f9fef2ffe8d0eaf5e2f9fffebef9ff">[email&#160;protected]</span>>
+/// @author Zerion - <<span class="__cf_email__" data-cfemail="fe97909c9186be849b8c979190d09791">[email&#160;protected]</span>>
 contract TokenboxToken is Token {
 
     /*
